@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image:url("../images/head-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 80vh;
+}
+/* div {
+    border:1px solid;
+    padding:5px;
+} */
+.container {
+    width:100%;
+    position: relative;
+}
+.content {    
+    width:900px;
+    margin:0 auto;
+    position: relative;
+    overflow: auto;
+    text-align: center; /* Căn giữa nội dung */
+    
+}
+.col-50 {
+    width:50%;
+    float: left;
+    border:2px;
+    border-color:#CED086 ;
+}
+
+#logo {
+    text-align: center;
+}
+#logo img {
+    width:30%;
+    height:30%;
+    float: left;
+}
+#hotline {
+    font-size: 2rem;
+    font-weight: bold;
+    color:#fff;
+    background-color: #49A333;
+    text-align: center;
+    border-radius: 5px;
+    padding:10px;
+    margin:0 auto;
+    margin-top:50px;
+    width:50%;
+    float: right;
+    text-decoration: none;
+    display: inline-table;
+}
+
+table {
+    background-color: #678B37; /* Màu nền xanh lá */
+    border: 12px solid #CED086; /* Viền màu vàng và độ dày 12px */
+    border-collapse: collapse;
+    width: 300px; /* Chiều ngang của bảng */
+    height: 400px; 
+    margin: auto; /* Canh giữa bảng */
+}
+td {
+    padding: 10px; /* Khoảng cách giữa nội dung và viền của ô */
+    text-align: center; /* Canh lề giữa cho nội dung trong ô */
+    color: white; /* Màu chữ trắng */
+    background-color: #678B37; /* Màu nền xanh lá */
+    
+}
+.big-text {
+    font-size: 20px; /* Cỡ chữ lớn */
+}
+.small-text {
+    font-size: 17px; /* Cỡ chữ nhỏ */
+    font-style: italic; /* Chữ in nghiêng */
+}
+.submit-button {
+    background-color: #C5D301; /* Màu nền cam */
+    width: 280px; /* Chiều ngang trở lại như ban đầu và nhỏ lại 20px */
+    height: 50px; /* Chiều dọc tăng thêm 30px */
+    border: none; /* Xóa viền */
+    color: white;
+} 
+  .form-container {
+    display: flex;
+    justify-content:left;
+  }
+  .additional-content {
+    margin-top: 20px; /* Khoảng cách từ phần tử trên */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các ô */
+    max-width: 800px; /* Đặt chiều rộng tối đa */
+}
+
+  .additional-content > div {
+    background-color: #fff; /* Màu nền trắng cho ô */
+    padding: 20px; /* Khoảng cách giữa nội dung và viền của ô */
+    border-radius: 8px; /* Đường viền cong */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    width: 100%;
+}
+.gc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #81AF53;
+    color: white;
+  }
+  .chia{
+    flex: 1;
+    display: flex;
+  }
+  .gc1 {
+    flex: 1;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: left; /* Căn phải hình ảnh */
+  }
+  .chian{ 
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #DCE085;
+}
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+  label {
+    margin-top: 10px;
+    display: block;
+    color: #666666;
+  }
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
